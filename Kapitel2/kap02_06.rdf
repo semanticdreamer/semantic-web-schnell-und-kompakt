@@ -1,0 +1,12 @@
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+	<foaf:Person rdf:about="#me">
+		<foaf:name>James Bond</foaf:name>
+		<foaf:mbox>mailto:james.bond@example.com</foaf:mbox>
+		<foaf:homepage rdf:resource="http:///www.jamesbond.com/" />
+		<foaf:img rdf:resource="/images/me.jpg" />
+	</foaf:Person>
+
+</rdf:RDF>

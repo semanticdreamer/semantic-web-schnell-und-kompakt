@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- Expressing Qualified Dublin Core in RDF / XML, 
+	 http://dublincore.org/documents/dcq-rdf-xml/ -->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/">  
+  <rdf:Description>
+    <dc:contributor>Dr. Christoph Schmidt</dc:contributor>
+    <dc:coverage>Germany</dc:coverage>
+    <dc:creator>Matthias Geisler</dc:creator>
+    <dc:date>2009-03-23</dc:date>
+    <dc:description>Beispiel zur Anwendungen von Dublin Core Metadaten-Elementen.</dc:description>
+    <dc:format>text/html</dc:format>
+    <dc:identifier>http://sw-sk.semanticdreamer.com/</dc:identifier>
+    <dc:language>de</dc:language>
+    <dc:publisher>entwickler.press</dc:publisher>
+    <dc:relation>http://dublincore.org/documents/dces/</dc:relation>
+    <dc:rights>http://creativecommons.org/licenses/by-nc-sa/3.0/de/</dc:rights>
+    <dc:source>http://dublincore.org/documents/dcq-rdf-xml/</dc:source>
+    <dc:subject>Beispiel zur Anwendungen von Dublin Core Metadaten-Elementen.</dc:subject>
+    <dc:title>Semantic Web schnell+kompakt</dc:title>
+    <dc:type>Text</dc:type>
+  </rdf:Description>
+</rdf:RDF>

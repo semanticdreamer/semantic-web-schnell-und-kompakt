@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://example.com/">
+	
+	<rdf:Description rdf:about="http://jamesbond.com/JamesBond">
+	  <ex:Kollegen rdf:parseType="Collection">
+	      <rdf:description rdf:about="http://jamesbond.com/M"/>
+	      <rdf:description rdf:about="http://jamesbond.com/Q"/>
+	  </ex:Kollegen>
+	</rdf:Description>
+	
+</rdf:RDF>

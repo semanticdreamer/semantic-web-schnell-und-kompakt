@@ -1,0 +1,10 @@
+#Wie heißt die Ehefrau von Helmut Schmidt?
+#SPARQL Endpoint URL: http://dbpedia.org/sparql/
+
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX dbpprop: <http://dbpedia.org/property/>
+
+SELECT ?name 
+WHERE { 
+  dbpedia:Helmut_Schmidt dbpprop:spouse ?name
+}

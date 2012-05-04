@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteBase /Kapitel2
+RewriteRule RDF.xml  ../Kapitel1/kap01_09.rdf

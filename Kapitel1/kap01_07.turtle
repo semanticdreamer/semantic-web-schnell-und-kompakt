@@ -1,0 +1,21 @@
+#Der neue James Bond Kinofilm mit Daniel Craig heißt "Ein Quantum Trost" (Quantum of Solace).
+
+<http://jamesbond.com/EinQuantumTrost>
+   <http://example.com/ErscheintIt>
+      <http://jamesbond.com/Filmreihe> .
+
+<http://jamesbond.com/EinQuantumTrost>
+   <http://example.com/Titel>
+      "Ein Quantum Trost"@de .
+
+<http://jamesbond.com/EinQuantumTrost>
+   <http://example.com/Titel>
+      "Quantum of Solace"@en .
+
+<http://example.com/DanielCraig>
+   <http://example.com/SpieltIn>
+      <http://jamesbond.com/EinQuantumTrost> .
+
+<http://example.com/DanielCraig>
+   <http://example.com/Name>
+      "Daniel Craig" .

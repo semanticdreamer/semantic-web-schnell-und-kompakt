@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Buch [
+	<!-- Ein Buch hat einen Titel und mindestens 
+     einen Autor, ein Verlag ist optional. -->
+	<!ELEMENT Buch (Titel, Autor+, Verlag?)>
+	<!ELEMENT Titel (#PCDATA)>
+	<!-- Autor mit Vor- und Nachnamen. -->
+	<!ELEMENT Autor (Vorname, Nachname)>
+	<!ELEMENT Vorname (#PCDATA)>
+	<!ELEMENT Nachname (#PCDATA)>
+	<!ELEMENT Verlag (#PCDATA)>
+	<!-- Ein Buch muss eine ISBN haben. -->
+	<!ATTLIST Buch isbn CDATA #REQUIRED>
+]>
+<Buch isbn="978-3-86802-028-1">
+  <Titel>Semantic Web</Titel>
+  <Autor>
+    <Vorname>Matthias</Vorname>
+    <Nachname>Geisler</Nachname>
+  </Autor>
+  <Verlag>entwickler.press</Verlag>
+</Buch>

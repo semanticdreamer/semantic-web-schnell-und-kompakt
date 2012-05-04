@@ -1,0 +1,21 @@
+#Alle Filme in denen Daniel Craig mitspielt, 
+#der deutsche Titel und Zusammenfassung, 
+#Direktor und Produzent.
+#SPARQL Endpoint URL: http://dbpedia.org/sparql/
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbpedia2: <http://dbpedia.org/property/>
+
+SELECT ?film ?label ?abstract ?director ?producer
+WHERE {
+	?film rdf:type <http://dbpedia.org/ontology/Film>;
+	dbpedia2:starring <http://dbpedia.org/resource/Daniel_Craig>.
+	OPTIONAL {
+		?film rdfs:label ?label FILTER (lang(?label) = 'de').
+		?film dbpedia2:director ?director;
+              dbpedia2:producer ?producer;
+              dbpedia2:abstract ?abstract FILTER (lang(?abstract ) = 'de') .
+		}
+}
+ORDER BY ?film

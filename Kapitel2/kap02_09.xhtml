@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+    "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>Semantic Web: schnell+kompakt</title>
+	</head>
+	<body>
+		<!--h1>RDFa vCard Profile </h1-->
+		<div 
+			 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			 xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#"
+			 about="http://entwickler-press.de/"
+			 typeof="foaf:Organization">
+			<a rel="vCard:URL" href="http://entwickler-press.de/"><span property="vCard:FN">entwickler.press</span></a>
+			<div property="vCard:Orgname">Software &amp; Support Verlag GmbH</div>
+			<div property="vCard:ADR">
+				<div property="vCard:Street">Geleitsstraße 14</div>
+				<span property="vCard:Country">DE</span> 
+				<span property="vCard:Postal-Code">60599</span> 
+				<span property="vCard:Locality">Frankfurt</span>
+			</div>
+			<div>Tel: 
+				<span property="vCard:TEL">+49 (0)69 - 63 00 89 0</span>
+			</div>
+			<div>
+				<span property="vCard:Type">Fax</span>:<span property="vCard:Value">+49 (0)69 - 63 00 89 89</span>
+			</div>
+			<div>E-Mail: 
+				<span rel="vCard:EMAIL">mailto:info@entwickler-press.de</span>
+			</div>
+		</div>
+	</body>
+</html>

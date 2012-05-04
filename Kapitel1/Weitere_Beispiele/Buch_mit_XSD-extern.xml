@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Buch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Buch.xsd"
+	isbn="978-3-86802-028-1">
+  <Titel>Semantic Web</Titel>
+  <Autor>
+    <Vorname>Matthias</Vorname>
+    <Nachname>Geisler</Nachname>
+  </Autor>
+  <Verlag>entwickler.press</Verlag>
+</Buch>

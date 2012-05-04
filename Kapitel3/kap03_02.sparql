@@ -1,0 +1,11 @@
+#Alle Filme in denen Daniel Craig mitspielt.
+#SPARQL Endpoint URL: http://dbpedia.org/sparql/
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbpedia2: <http://dbpedia.org/property/>
+
+SELECT ?film
+WHERE {
+	?film rdf:type <http://dbpedia.org/ontology/Film>;
+	dbpedia2:starring <http://dbpedia.org/resource/Daniel_Craig>.
+}

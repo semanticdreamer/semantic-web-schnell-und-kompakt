@@ -1,0 +1,11 @@
+<!-- Ein Buch hat einen Titel, mindestens 
+einen Autor und keinen oder einen Verlag. -->
+<!ELEMENT Buch (Titel, Autor+, Verlag?)>
+<!ELEMENT Titel (#PCDATA)>
+<!-- Autor mit Vor- und Nachnamen. -->
+<!ELEMENT Autor (Vorname, Nachname)>
+<!ELEMENT Vorname (#PCDATA)>
+<!ELEMENT Nachname (#PCDATA)>
+<!ELEMENT Verlag (#PCDATA)>
+<!-- Ein Buch muss eine ISBN haben. -->
+<!ATTLIST Buch isbn CDATA #REQUIRED>

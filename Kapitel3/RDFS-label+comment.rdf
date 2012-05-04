@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Quelle: gekürzt aus FOAF Vokabular Spezifikation 0.91, 
+	 http://xmlns.com/foaf/spec/index.rdf -->
+<rdfs:Class 
+	rdf:about="http://xmlns.com/foaf/0.1/Person" 
+	rdfs:label="Person" 
+	rdfs:comment="A person."
+	/>

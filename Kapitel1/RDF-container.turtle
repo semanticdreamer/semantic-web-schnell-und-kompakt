@@ -1,0 +1,10 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://example.com/> .
+@prefix bond: <http://jamesbond.com/> .
+
+bond:JamesBond 
+  ex:Kollege [
+    a rdf:Seq;
+    rdf:_1 bond:M;
+    rdf:_2 bond:Q;
+  ]. 

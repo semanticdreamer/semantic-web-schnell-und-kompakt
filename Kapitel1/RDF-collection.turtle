@@ -1,0 +1,6 @@
+@prefix ex: <http://example.com/> .
+@prefix bond: <http://jamesbond.com/> .
+
+bond:JamesBond 
+  ex:Kollege
+    ( bond:M bond:Q ) . 

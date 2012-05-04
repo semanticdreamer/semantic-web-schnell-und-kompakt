@@ -1,0 +1,8 @@
+#Das Buch "Semantic Web - schnell+kompakt" erscheint im Verlag entwickler-press.
+
+@prefix ex: <http://example.com/> .
+@prefix ep: <http://entwickler-press.de/> .
+
+ex:SemanticWeb ex:VerlegtVon  ep:Verlag .
+ex:SemanticWeb ex:Titel       "Semantic Web schnell+kompakt" .
+ep:Verlag       ex:Name        "entwickler-press" .

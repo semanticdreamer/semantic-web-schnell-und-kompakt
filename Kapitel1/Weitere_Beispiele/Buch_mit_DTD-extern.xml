@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Buch PUBLIC "-//Semanticdreamer//Custom Buch DTD Version 1.0//EN"
+"http://sw-sk-beispiele.semanticdreamer.com/Kapitel2/Buch.dtd">
+<!-- Private, lokale externe DTD
+<!DOCTYPE Buch SYSTEM "Buch.dtd">
+-->
+<Buch isbn="978-3-86802-028-1">
+  <Titel>Semantic Web</Titel>
+  <Autor>
+    <Vorname>Matthias</Vorname>
+    <Nachname>Geisler</Nachname>
+  </Autor>
+  <Verlag>entwickler.press</Verlag>
+</Buch>

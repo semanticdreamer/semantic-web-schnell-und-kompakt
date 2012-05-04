@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfs:Class 
+	rdf:about="http://example.com/AutoA2"> 
+  	<rdf:type 
+		rdf:resource="http://example.com/Auto"
+	/> 
+</rdf:Class> 

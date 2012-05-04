@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://example.com/">
+
+	<!-- Der neue James Bond Kinofilm mit Daniel Craig heißt 
+		 "Ein Quantum Trost" (Quantum of Solace). -->
+		
+	<rdf:Description 
+		rdf:about="http://jamesbond.com/EinQuantumTrost">
+		<ex:ErscheintIt>
+			<rdf:Description 
+				rdf:about="http://jamesbond.com/Filmreihe"/>
+		</ex:ErscheintIt>
+	</rdf:Description>
+	
+	<rdf:Description 
+		rdf:about="http://jamesbond.com/EinQuantumTrost">
+		<ex:Titel xml:lang="de">Ein Quantum Trost</ex:Titel>
+	</rdf:Description>
+	
+	<rdf:Description 
+		rdf:about="http://jamesbond.com/EinQuantumTrost">
+		<ex:Titel xml:lang="en">Quantum of Solence</ex:Titel>
+	</rdf:Description>
+	
+	<rdf:Description 
+		rdf:about="http://example.com/DanielCraig">
+		<ex:SpieltIn>
+			<rdf:Description 
+				rdf:about="http://jamesbond.com/EinQuantumTrost"/>
+		</ex:SpieltIn>
+	</rdf:Description>
+	
+	<rdf:Description 
+		rdf:about="http://example.com/DanielCraig">
+		<ex:Name>Daniel Craig</ex:Name>
+	</rdf:Description>
+	
+</rdf:RDF>

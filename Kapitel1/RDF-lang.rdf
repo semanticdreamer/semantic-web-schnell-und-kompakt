@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://example.com/">
+	
+	<rdf:Description 
+		rdf:about="http://jamesbond.com/EinQuantumTrost">
+		<ex:Titel xml:lang="de">Ein Quantum Trost</ex:Titel>
+	</rdf:Description>
+	
+	<rdf:Description 
+		rdf:about="http://jamesbond.com/EinQuantumTrost">
+		<ex:Titel xml:lang="en">Quantum of Solence</ex:Titel>
+	</rdf:Description>
+	
+</rdf:RDF>

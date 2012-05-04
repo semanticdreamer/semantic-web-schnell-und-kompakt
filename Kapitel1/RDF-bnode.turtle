@@ -1,0 +1,10 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://example.com/> .
+@prefix bond: <http://jamesbond.com/> .
+
+bond:JamesBond
+  ex:SpieltIn
+    _:id1 .
+_:id1
+  ex:Film <http://jamesbond.com/EinQuantumTrost>;
+  ex:Erscheinungsjahr "2008" .

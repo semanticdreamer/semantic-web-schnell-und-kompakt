@@ -1,0 +1,6 @@
+@prefix ex: <http://example.com/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Marke rdfs:domain ex:Auto .
+ex:Marke rdfs:range ex:Automarke .
+ex:AudiA2 ex:Marke ex:Audi .

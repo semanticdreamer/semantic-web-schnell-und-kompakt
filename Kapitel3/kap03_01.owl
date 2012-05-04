@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Quelle: gekürzt von http://www.w3.org/TR/owl-guide/wine.rdf -->
+<rdf:RDF
+	xmlns="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"
+	xml:base="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ex="http://example.com/">
+	<owl:Ontology rdf:about="">
+		<rdfs:comment>Eine Beispiel OWL-Ontologie</rdfs:comment>
+		<owl:versionInfo>v0.1</owl:versionInfo>
+	    <owl:priorVersion>
+	      <owl:Ontology rdf:about="http://example.com/example1"/>
+	    </owl:priorVersion>
+		<owl:imports rdf:resource="http://example.com/example2"/>
+		<rdfs:comment>Ein beliebiger Kommentar...</rdfs:comment>
+		<rdfs:label>Beispiel Ontologie</rdfs:label>
+	</owl:Ontology>
+</rdf:RDF>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://example.com/">
+	
+	<rdf:Description 
+		rdf:about="http://example.com/DanielCraig">
+		<ex:SpieltIn rdf:nodeID="id1"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:nodeID="id1">
+		<ex:Film 
+			rdf:resource="http://jamesbond.com/EinQuantumTrost"/>
+		<ex:Erscheinungsjahr>2008</ex:Erscheinungsjahr> 
+	</rdf:Description>
+	
+</rdf:RDF>

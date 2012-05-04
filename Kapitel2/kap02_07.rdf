@@ -1,0 +1,40 @@
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<foaf:Person xml:lang="en" rdf:ID="me">
+		<foaf:name>James Bond</foaf:name>
+		<foaf:givenname>James</foaf:givenname>
+		<foaf:family_name>Bond</foaf:family_name>
+		<foaf:nick>James</foaf:nick>
+		<foaf:mbox rdf:resource="mailto:james@mi5.gov.uk"/>
+		<foaf:homepage rdf:resource="http://www.jamesbond.com/"/>
+		<foaf:depiction
+			rdf:resource="http://upload.wikimedia.org/wikipedia/en/c/c5/Fleming007impression.jpg" />
+		<foaf:interest>
+			<rdf:Description 
+				rdf:about="http://de.wikipedia.org/wiki/Martini_(Cocktail)">
+				<dc:title>Martini - geschüttelt, nicht gerührt</dc:title>
+			</rdf:Description>
+		</foaf:interest>
+		<foaf:knows>
+			<foaf:Person>
+				<foaf:name>M</foaf:name>
+				<foaf:mbox 
+					rdf:resource="mailto:m@mi5.gov.uk" />
+				<rdfs:seeAlso 
+					rdf:resource="http://de.wikipedia.org/wiki/Figuren_aus_James-Bond-Filmen#M" />
+			</foaf:Person>
+		</foaf:knows>
+		<foaf:knows>	
+			<foaf:Person>
+				<foaf:name>Q</foaf:name>
+				<foaf:mbox 
+					rdf:resource="mailto:q@mi5.gov.uk" />
+				<rdfs:seeAlso 
+					rdf:resource="http://de.wikipedia.org/wiki/Figuren_aus_James-Bond-Filmen#q" />
+			</foaf:Person>
+		</foaf:knows>
+	</foaf:Person>
+
+</rdf:RDF>
