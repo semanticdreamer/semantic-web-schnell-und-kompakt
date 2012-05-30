@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rel="http://purl.org/vocab/relationship/"
+  xmlns:bio="http://purl.org/vocab/bio/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:label="http://purl.org/net/vocab/2004/03/label#">
+
+  <rdf:Description rdf:about="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me.rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <foaf:primaryTopic rdf:resource="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me"/>
+    <dct:hasFormat rdf:resource="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me.html"/>
+    <dct:hasFormat rdf:resource="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me.xml"/>
+    <dct:hasFormat rdf:resource="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me.json"/>
+    <dct:hasFormat rdf:resource="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me.turtle"/>
+    <foaf:topic rdf:resource="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me.html">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/html</dc:format>
+    <rdfs:label>HTML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me.xml">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/xml</dc:format>
+    <rdfs:label>XML</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me.json">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>application/json</dc:format>
+    <rdfs:label>JSON</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me.turtle">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dc:format>text/plain</dc:format>
+    <rdfs:label>Turtle</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://sw-sk-beispiele.semanticdreamer.com/paget/~james/id/me">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:title>Mr</foaf:title>
+    <foaf:name>James Bond</foaf:name>
+    <foaf:firstName>James</foaf:firstName>
+    <foaf:surname>Bond</foaf:surname>
+    <foaf:nick>james</foaf:nick>
+    <foaf:nick>007</foaf:nick>
+	<foaf:knows rdf:resource="http://dbpedia.org/resource/Q"/>
+	<foaf:knows rdf:resource="http://dbpedia.org/resource/M"/>
+    <bio:olb>Im Geheimdienst Ihrer Majestät</bio:olb>
+    <foaf:mbox rdf:resource="mailto:james@mi5.gov.uk"/>
+    <foaf:mbox_sha1sum>0a34f3f1f57533bd955b92a8fc57b2dd37954509</foaf:mbox_sha1sum>
+    <foaf:homepage rdf:resource="http://jamesbond.com/"/>
+    <foaf:workplaceHomepage rdf:resource="http://www.mi5.gov.uk/"/>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/en/c/c5/Fleming007impression.jpg"/>
+    <foaf:interest rdf:resource="http://dbpedia.org/resource/Martini"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/James_Bond"/>
+  </rdf:Description>
+
+</rdf:RDF>
