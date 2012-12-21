@@ -1,4 +1,4 @@
-#Das Buch "Semantic Web - schnell+kompakt" erscheint im Verlag entwickler-press.
+#Das Buch "Semantic Web - schnell + kompakt" erscheint im Verlag entwickler-press.
 
 <http://example.com/SemanticWeb>
    <http://example.com/VerlegtVon>
@@ -6,7 +6,7 @@
 
 <http://example.com/SemanticWeb>
    <http://example.com/Titel>
-      "Semantic Web schnell+kompakt" .
+      "Semantic Web schnell + kompakt" .
 
 <http://entwickler-press.de/Verlag>
     <http://example.com/Name>
